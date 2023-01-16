@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        h1{
+            text-align: center;
+        }
+
+        table{
+            width: 400px;
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        
+
+        th,tfoot{
+            background-color: gray;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Criando uma Tabela</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Municipio</th>
+                <th>Populaçao</th>
+            </tr>
+        </thead>
+
+        <tbody>
+             <tr>
+                <td>Sao paulo</td>
+                <td class="num">12.396.372</td>
+             </tr>
+             <tr>
+                 <td>Rio de janeiro</td>
+                 <td class="num">6.775.561</td>
+             </tr>
+             <tr> 
+                <td>Brasilia</td>
+                <td>3.094.325</td>
+             </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total de habitantes</td>
+                <td>22.267.258</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
