@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    margin-bottom: 10px;
+
+}
+
+header > h1{
+    text-align: center;
+}
+
+section.branco{
+    background-color: white;
+    height: 150px;
+}
+
+section.branco > h2{
+    text-align: center;
+}
+
+section.preto {
+    background-color:  #282e34;
+    color: white;
+    height: 150px;
+}
+
+section.preto > h2{
+    text-align: center;
+}
+
+section.imagem {
+    height: 400px;
+    background-image: url('imagens/background001.jpg');
+    background-position: center center;
+}
+
+section.imagem > h2 {
+    color: white;
+    text-align: center;
+}
