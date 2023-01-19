@@ -31,6 +31,17 @@ section.branco{
 
 section.branco > h2{
     text-align: center;
+    margin-top: 50px;
+}
+
+section.branco> p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 section.preto {
@@ -41,12 +52,22 @@ section.preto {
 }
 
 section.preto > h2{
+    
     text-align: center;
+    padding: 30px ;
+    
+    
+    
 }
 
 section.preto > p {
-    line-height: 20px;
-    text-align: justify;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-left: 80px;
+    padding-right: 80px;
     
 }
 
@@ -61,3 +82,6 @@ section.imagem > h2 {
     color: white;
     text-align: center;
 }
+
+
+
