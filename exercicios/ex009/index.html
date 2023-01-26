@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testando colspan e rowspan</title>
+    <style>
+        table{
+            width: 300px;
+            border-collapse: collapse;
+        }
+
+        tr,td,th{
+            border: 1px solid black;
+        }
+
+        
+        
+
+    </style>
+</head>
+<body>
+   <table>
+           <caption>Titulo</caption>
+       <thead>
+           <tr>
+               <th rowspan="2">titulo1</th>
+               <th>titulo2</th>
+               <th colspan="2">titulo3</th>
+           </tr>
+       </thead>
+       <tbody>
+
+          <tr>
+            <th rowspan="3">exemplo1</th>
+            <td>texto1</td>
+            <td>texto2</td>
+            <td>texto3</td>
+          </tr>
+
+          <tr>
+                <td>texto4</td>
+                <td>texto5</td>
+                <td>texto6</td>
+          </tr>
+
+          <tr>
+            <td>texto7</td>
+            <td>texto8</td>
+            <td>texto9</td>
+          </tr>
+
+          <tr>
+            <th rowspan="2">exemplo2</th>
+            <td>texto1</td>
+            <td>texto2</td>
+            <td>texto3</td>
+          </tr>
+
+          <tr>
+            <td>texto4</td>
+            <td>texto5</td>
+            <td>texto6</td>
+      </tr>
+
+      <tr>
+        <th rowspan="2">exemplo3</th>
+        <td>texto1</td>
+        <td>texto2</td>
+        <td>texto3</td>
+      </tr>
+
+      <tr>
+        <td>texto4</td>
+        <td>texto5</td>
+        <td>texto6</td>
+  </tr>
+
+  <tr>
+    <th rowspan="2">exemplo4</th>
+    <td>texto1</td>
+    <td>texto2</td>
+    <td>texto3</td>
+  </tr>
+
+  <tr>
+    <td>texto4</td>
+    <td>texto5</td>
+    <td>texto6</td>
+</tr>
+
+       
+
+          
+          
+
+       </tbody>
+   </table>
+</body>
+</html>
