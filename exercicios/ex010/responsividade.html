@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando responsividade</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        p{
+            line-height: 20px;
+            text-align: justify;
+
+        }
+
+        div#container{
+            max-width: 500px;
+            margin: auto;
+            background-color: gray;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        div#video{
+            width: 100%;
+            padding-top: 56.25%;
+            position: relative;
+        }
+
+        div#video iframe{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            
+        }
+
+        @media only screen and (min-width: 900px) and (max-width: 1326px) {
+
+            p{
+                background-color: red;
+            }
+
+         }  
+
+         @media only screen and (min-width: 600px) and (max-width: 900px) {
+            p{
+                background-color: orangered;
+            }
+         }
+
+         @media only screen and (min-width: 300px) and (max-width: 600px) {
+            p{
+                background-color: yellow;
+            }
+         }
+
+
+  </style>
+</head>
+<body>
+
+        <main>
+            
+                <h1>Testando responsividade</h1>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur debitis aliquam adipisci accusantium illum facilis ipsam vitae quia assumenda laboriosam qui consequatur, delectus corporis facere quos odio at! Voluptates, illum?</p>
+
+                <div id="container">
+                    
+                    <div id="video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+        </main>
+
+        
+</body>
+</html>
