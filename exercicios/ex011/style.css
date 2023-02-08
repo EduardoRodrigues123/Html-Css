@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body{
+    background-color: #8FC1B5;
+}
+
+
+
+
+header{
+    background-color: #146551;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+}
+
+nav > a{
+    margin-left: 20px;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+main{
+    margin: auto;
+    width: 700px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+@media only screen and (min-width: 500px ) and (max-width: 728px){
+    main{
+        width: 600px;
+    }
+}
+
+@media only screen and (min-width: 400px ) and (max-width: 629px){
+    main{
+        width: 450px;
+    }
+
+    header{
+        width: 450px;
+    }
+}
+    
