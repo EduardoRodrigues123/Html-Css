@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+:root{
+    --cor0: #D90404;
+    --cor1: #F28705; 
+    --cor2: #033E8C;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #033E8C;
+}
+
+@font-face {
+    font-family: 'gamer' ;
+    src: url('fonte/Gamer.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header{
+    text-align: center;
+    background-color: #F28705;
+    padding: 15px;
+}
+
+h1{
+    font-family: 'gamer', Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    width: 1100px;
+    margin: auto;
+    padding: 7px;
+    margin-top: 10px;
+}
