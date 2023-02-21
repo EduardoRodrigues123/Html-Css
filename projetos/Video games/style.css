@@ -2,8 +2,8 @@
 
 :root{
     --cor0: #D90404;
-    --cor1: #F28705; 
-    --cor2: #033E8C;
+    --cor1: #0D0D0D; 
+    --cor2: #F5B403;
 }
 
 *{
@@ -12,7 +12,7 @@
 }
 
 body{
-    background-color: #033E8C;
+    background-color:#F5B403;
 }
 
 @font-face {
@@ -24,21 +24,60 @@ body{
 
 header{
     text-align: center;
-    background-color: #F28705;
-    padding: 15px;
+    background-color: #0D0D0D;
+    padding: 20px;
+    color: #F5B403;
+    border-radius: 0px 0px 5px 5px;
 }
 
 h1{
     font-family: 'gamer', Helvetica, sans-serif;
     font-weight: bolder;
     font-size: 50px;
+    margin-bottom: 10px;
 }
 
 main{
     background-color: white;
     border-radius: 10px;
-    width: 1100px;
+    width: 900px;
     margin: auto;
     padding: 7px;
     margin-top: 10px;
+}
+
+header > p {
+    font-weight: bolder;
+}
+
+main > h2{
+    margin-bottom: 10px;
+    font-family: 'gamer';
+    font-size: 40px;
+    color: #af8101;
+    
+}
+
+main > p{
+    text-align: justify;
+    text-indent: 15px;
+    line-height: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #F5B403;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #F5B403;
+
+}
+
+img{
+    width: 40%;
+    margin: auto;
+    display: block;
 }
