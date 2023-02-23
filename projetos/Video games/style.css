@@ -92,3 +92,51 @@ nav > a {
     margin-left: 7px; 
 }
 
+@media only screen and (min-width: 800px ) and (max-width: 930px){
+    main{
+        width: 800px;
+    }
+}
+
+@media only screen and (min-width: 734px ) and (max-width: 830px){
+    main{
+        width: 700px;
+    }
+}
+
+@media only screen and (min-width: 664px ) and (max-width: 734px){
+    main{
+        width: 630px;
+    }
+}
+
+@media only screen and (min-width: 580px ) and (max-width: 664px){
+    main{
+        width: 550px;
+    }
+}
+
+@media only screen and (min-width: 500px ) and (max-width: 580px){
+    main{
+        width: 465px;
+    }
+}
+
+@media only screen and (min-width: 450px ) and (max-width: 500px){
+    main{
+        width: 450px;
+    }
+}
+
+@media only screen and (min-width: 350px ) and (max-width: 450px){
+    main{
+        width: 340px;
+    }
+}
+
+@media only screen and (min-width: 270px ) and (max-width: 350px){
+    main{
+        width: 285px;
+    }
+}
+
